@@ -8,7 +8,7 @@ import pickle
 
 app = Flask(__name__)
 
-model = pickle.load(open('c:/Users/Cecib/Desktop/project3/House-Price/model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 
 
